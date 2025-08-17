@@ -1,0 +1,55 @@
+{
+  "userInfos": {
+    "userId_123": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+212600000000"
+    },
+    "userId_456": {
+      "name": "Dr. Sarah Pro",
+      "email": "sarah@example.com",
+      "phone": "+212611111111",
+      "isProfessional": true
+    }
+  },
+  "diagnostics": {
+    "diagnosticId_001": {
+      "userId": "userId_123",
+      "proUserId": null,
+      "diagnosticPhotoUrl": "https://storage.googleapis.com/photos/photo1.jpg",
+      "scores": {
+        "hydration": 80,
+        "acne": 55,
+        "wrinkles": 40,
+        "darkSpots": 70,
+        "elasticity": 65
+      },
+      "createdAt": "2025-08-17T12:00:00Z",
+      "recommendation": {
+        "barcode": "8901234567890",
+        "productName": "Hydrating Cream"
+      }
+    },
+    "diagnosticId_002": {
+      "proUserId": "userId_456",
+      "forPerson": {
+        "firstName": "Ali",
+        "lastName": "Benomar",
+        "phone": "+212622222222"
+      },
+      "diagnosticPhotoUrl": "https://storage.googleapis.com/photos/photo2.jpg",
+      "scores": {
+        "hydration": 60,
+        "acne": 75,
+        "wrinkles": 30,
+        "darkSpots": 55,
+        "elasticity": 50
+      },
+      "createdAt": "2025-08-17T13:30:00Z",
+      "recommendation": {
+        "barcode": "7896541230000",
+        "productName": "Anti-Acne Serum"
+      }
+    }
+  }
+}
